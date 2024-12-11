@@ -1,0 +1,31 @@
+:root
+{
+    --bg-color:#24353F;
+}
+
+body
+{
+    background-color: var(--bg-color);
+}
+nav
+{
+    background-color: var(--bg-color);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.373);
+}
+.box
+{
+    background-color: var(--bg-color);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.373);
+    width: 50%;
+}
+@media (max-width:991px)
+{
+    .box
+    {
+        width: 80%;
+    }
+}
+h1
+{
+    color: rgb(23, 162, 184);
+}

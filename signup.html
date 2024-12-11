@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- css Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="box text-center py-5">
+            <div class="content">
+
+
+                <h1 class="mb-4">Smart Login System</h1>
+                <form class="form d-flex flex-wrap justify-content-center">
+                    <input id="name" type="text" class="w-100 rounded mb-3 py-2 ps-2 bg-transparent" placeholder="Enter Your Name" name="" id="">
+                    <input id="email" class="w-100 rounded mb-3 py-2 ps-2 bg-transparent" type="email" placeholder="Enter Your email" name="" id="">
+                    <input id="pass" class="w-100 rounded mb-4 py-2 ps-2 bg-transparent" type="password" placeholder="Enter Your password" name="" id="">
+                    <div id="success" class="success-message border-0 mb-4 text-success d-none">Success</div>
+                    <div id="exist" class="exist-message border-0 mb-4 text-danger d-none">email already exists</div>
+                    <div id="all-inputs" class="all-inputs border-0 mb-4 text-danger d-none">All inputs is required</div>
+                    <button id="btn" type="button" class="w-100 rounded py-2 bg-transparent mb-3">Register</button>
+                </form>
+                <p class="text-white">Don’t have an account?<a href="index.html" class="text-decoration-none text-white"> Sign in</a></p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/signup.js"></script>
+
+</body>  
+
+</html>
